@@ -16,7 +16,7 @@ const uri = process.env.MONGODB_URI;
 
 // DB connection
 mongoose
-  .connect(uri, {
+  .connect("mongodb+srv://taigorad:goradwadi10@cluster0.ba6s9tj.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
